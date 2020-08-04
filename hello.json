@@ -1,0 +1,10 @@
+{
+	"example": 3,
+	"hello": "world",
+	"another": [
+		"example",
+		"and",
+		"more",
+		"stuff"
+	]
+}
