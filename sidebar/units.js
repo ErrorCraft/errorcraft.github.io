@@ -1,7 +1,7 @@
 var units =
 {
 	"Unit 1: Introduction": {
-		"image": "what-block.svg",
+		"image": "/sidebar/what-block.svg",
 		"contents": {
 			"Lesson 1": {"url": "units/introduction/your_first_data_pack.html"},
 			"Lesson 2": {"url": "units/introduction/your_first_function.html"},
@@ -10,13 +10,13 @@ var units =
 		}
 	},
 	"Unit 2": {
-		"image": "what-block.svg",
+		"image": "/sidebar/what-block.svg",
 		"contents": {
 			"Lesson 1": {"url": "#"},
 		}
 	},
 	"Unit 3": {
-		"image": "what-block.svg",
+		"image": "/sidebar/what-block.svg",
 		"contents": {
 			"Lesson 1": {"url": "#"},
 			"Lesson 2": {"url": "#"},
@@ -26,7 +26,7 @@ var units =
 		}
 	},
 	"Unit 4": {
-		"image": "what-block.svg",
+		"image": "/sidebar/what-block.svg",
 		"contents": {
 			"Lesson 1": {"url": "#"},
 			"Lesson 2": {"url": "#"},
@@ -35,7 +35,7 @@ var units =
 		}
 	},
 	"Unit 5": {
-		"image": "what-block.svg",
+		"image": "/sidebar/what-block.svg",
 		"contents": {
 			"Lesson 1": {"url": "#"},
 			"Lesson 2": {"url": "#"},
