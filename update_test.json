@@ -1,0 +1,28 @@
+[
+	{
+		"tag_name": "v1.1.0",
+		"assets": [
+			{
+				"name": "changelog.txt",
+				"browser_download_url": ""
+			}
+			{
+				"name": "foo.exe",
+				"browser_download_url": ""
+			}
+		]
+	},
+	{
+		"tag_name": "v1.0.0",
+		"assets": [
+			{
+				"name": "changelog.txt",
+				"browser_download_url": ""
+			}
+			{
+				"name": "foo.exe",
+				"browser_download_url": ""
+			}
+		]
+	}
+]
