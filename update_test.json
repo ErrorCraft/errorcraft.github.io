@@ -4,11 +4,13 @@
 		"assets": [
 			{
 				"name": "changelog.txt",
+				"label": "changelog",
 				"browser_download_url": "https://errorcraft.github.io/update_test/1.1.0.txt"
 			},
 			{
-				"name": "foo.exe",
-				"browser_download_url": ""
+				"name": "foo.txt",
+				"label": "file",
+				"browser_download_url": "https://errorcraft.github.io/update_test/the_actual_file.txt"
 			}
 		]
 	},
@@ -17,10 +19,12 @@
 		"assets": [
 			{
 				"name": "changelog.txt",
+				"label": "changelog",
 				"browser_download_url": ""
 			},
 			{
-				"name": "foo.exe",
+				"name": "foo.txt",
+				"label": "file",
 				"browser_download_url": ""
 			}
 		]
