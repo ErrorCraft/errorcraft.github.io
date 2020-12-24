@@ -8,7 +8,7 @@
 				"browser_download_url": "https://errorcraft.github.io/update_test/1.1.0.txt"
 			},
 			{
-				"name": "foo.txt",
+				"name": "Test Application.exe",
 				"label": "file",
 				"browser_download_url": "https://errorcraft.github.io/update_test/UserInterface.exe"
 			}
