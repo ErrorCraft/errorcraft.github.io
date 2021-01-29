@@ -3,16 +3,18 @@ window.onload = async function() {
 	let layout = await getContents("/shared/html/layout");
 	pageLayout.innerHTML = layout;
 	
-	loadScript("/shared/js/theme.js");
-	loadTheme();
+	loadScript("/shared/js/theme.js", function() {
+		loadTheme();
+	});
 }
 
 async function getContents(url) {
 	return await fetch(url).then(a => a.text());
 }
 
-function loadScript(url) {
+function loadScript(url, callback) {
 	var script = document.createElement("script");
 	script.src = url;
+	script.onload = callback;
 	document.head.appendChild(script);
 }
