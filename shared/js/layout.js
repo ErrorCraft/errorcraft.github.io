@@ -3,7 +3,9 @@ window.onload = async function() {
 	let layout = await getContents("/shared/html/layout");
 	pageLayout.innerHTML = layout;
 	
-	loadTheme();
+	import("/shared/js/theme.js").then(module => {
+		module.loadTheme();
+	});
 }
 
 async function getContents(url) {
