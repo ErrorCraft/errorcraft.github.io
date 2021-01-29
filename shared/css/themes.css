@@ -1,0 +1,15 @@
+:root {}
+
+body[data-theme = light] {
+	--top-bar-background: #CCCCCC;
+	--top-bar-item-background: #BBBBBB;
+	--top-bar-item-background-hover: #AAAAAA;
+	--foreground-colour: #000000;
+}
+
+body[data-theme = dark] {
+	--top-bar-background: #333333;
+	--top-bar-item-background: #444444;
+	--top-bar-item-background-hover: #555555;
+	--foreground-colour: #FFFFFF;
+}
