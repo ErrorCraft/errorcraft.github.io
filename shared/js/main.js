@@ -1,4 +1,4 @@
-import theme from './theme.js';
+import * as theme from './theme.js';
 
 window.onload = async function() {
 	theme.loadTheme();
