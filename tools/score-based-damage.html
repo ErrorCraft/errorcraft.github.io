@@ -1,0 +1,13 @@
+<html>
+	<head></head>
+	<body>
+		<h1>Score-Based Damage</h1>
+		<p>This is a data pack that allows you to damage and heal players based on a score! I want players to be able to modify player health more easily, because the instant_damage and instant_health effects are not useful at all. It modifies your maximum health using the attribute command, and so it keeps fractional health as well! For example, if your health was 19.877 and your score was set to 2, your new health would be 17.877!</p>
+		<p>Unfortunately, this method has a small downside. It ignores absorption, it only takes your actual current health and maximum health. I would have to add effect commands for every single level of absorption, combined with all possible time values (that would be a lot of commands.) It is discouraged to run the function every tick, because it's not needed. You only have to call the function if you actually want to damage or heal the player, and that is usually right after you set the score.</p>
+		<p>If the player is supposed to die, it will call the #custom_damage:death function tag, instead of applying the damage. This way you can add your own death functions.</p>
+		<a href="https://github.com/ErrorCraft/Score-Based-Damage" target="_blank">Download Data Pack</a><br/>
+		
+		<h2>Video</h2>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/sSBV_TW8-WA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</body>
+</html>
