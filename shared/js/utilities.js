@@ -1,4 +1,4 @@
-export async function getHtml(url) {
+export async function getHtmlContents(url) {
 	var s = await getContents(url);
 	return new DOMParser().parseFromString(s, "text/xml").firstChild;
 }
