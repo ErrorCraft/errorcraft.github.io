@@ -1,6 +1,7 @@
-import * as Utilities from './utilities.js';
+//import * as Utilities from './utilities.js';
 
 async function loadMain() {
-	var navigationBar = await Utilities.getHtmlContents("/shared/html/navigation-bar");
-	document.body.prepend(navigationBar);
+	//var navigationBar = await Utilities.getHtmlContents("/shared/html/navigation-bar");
+	//document.body.prepend(navigationBar);
+	console.log("a");
 }
