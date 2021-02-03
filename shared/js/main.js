@@ -7,5 +7,5 @@ async function loadMain() {
 }
 
 console.log("1");
-document.body.addEventListener('load', loadMain);
+window.addEventListener('load', loadMain);
 console.log("2");
