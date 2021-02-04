@@ -15,7 +15,7 @@ nav {
 	color: #000000;
 }
 
-nav div {
+nav .nav-title {
 	font-size: 1.5rem;
 	padding: 0.5rem;
 }
@@ -55,7 +55,7 @@ nav ul li ul li {
 	background: #EEEEEE;
 }
 
-nav a.nav-toggle {
+nav .nav-toggle {
 	position: absolute;
 	top: 0.75rem;
 	right: 1rem;
