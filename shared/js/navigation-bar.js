@@ -1,5 +1,6 @@
-function loadNavigationBar() {
-	var child = document.getElementById("navigationBar");
-	var clonedChild = child.content.cloneNode(true);
-	document.body.prepend(clonedChild);
-}
+const navigationToggleButton = document.getElementsByClassName("nav-toggle")[0];
+const navigationContents = document.getElementsByClassName("nav-contents")[0];
+
+navigationToggleButton.addEventListener('click', function() {
+	navigationContents.classList.toggle('active');
+});
