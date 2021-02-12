@@ -6,18 +6,6 @@ nav {
 	color: #000000;
 }
 
-nav > a {
-	font-size: 1.5rem;
-	padding: 0.5rem;
-}
-
-nav ul {
-	display: flex;
-	margin: 0;
-	padding: 0;
-}
-
-
 @media (max-width: 600px) {
 	nav {
 		flex-direction: column;
