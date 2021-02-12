@@ -9,8 +9,7 @@ console.log(navigationContents);
 
 navigationToggleButton.addEventListener('click', function() {
 	console.log("d");
-	navigationContents.style.display = 'flex';
-	//navigationContents.classList.toggle('active');
+	navigationContents.classList.toggle('active');
 });
 
 console.log("c");
