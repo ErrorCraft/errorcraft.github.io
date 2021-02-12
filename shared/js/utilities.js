@@ -13,3 +13,9 @@ export function getStylesheetElement(url) {
 	e.rel = "stylesheet";
 	return e;
 }
+
+export function getScriptElement(url) {
+	var e = document.createElement('script');
+	e.src = url;
+	return e;
+}
