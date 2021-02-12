@@ -46,7 +46,7 @@ nav ul li ul li {
 	background: #EEEEEE;
 }
 
-nav p.nav-toggle {
+nav > button {
 	position: absolute;
 	top: 0.75rem;
 	right: 1rem;
@@ -74,7 +74,7 @@ nav .nav-bar {
 		align-items: flex-start;
 	}
 	
-	nav p.nav-toggle {
+	nav > button {
 		display: block;
 	}
 	
