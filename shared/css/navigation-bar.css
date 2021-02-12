@@ -45,3 +45,21 @@ nav ul li:hover > ul {
 nav ul li ul li {
 	background: #EEEEEE;
 }
+
+nav .nav-toggle {
+	position: absolute;
+	top: 0.75rem;
+	right: 1rem;
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30px;
+	height: 21px;
+}
+
+nav .nav-bar {
+	height: 3px;
+	width: 100%;
+	background: #000000;
+	border-radius: 10px;
+}
