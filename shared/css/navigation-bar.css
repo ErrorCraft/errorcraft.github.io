@@ -6,7 +6,7 @@ nav {
 	color: #000000;
 }
 
-nav > a.nav-title {
+nav > a {
 	font-size: 1.5rem;
 	padding: 0.5rem;
 }
@@ -46,7 +46,7 @@ nav ul li ul li {
 	background: #EEEEEE;
 }
 
-nav a.nav-toggle {
+nav p.nav-toggle {
 	position: absolute;
 	top: 0.75rem;
 	right: 1rem;
@@ -74,7 +74,7 @@ nav .nav-bar {
 		align-items: flex-start;
 	}
 	
-	nav a.nav-toggle {
+	nav p.nav-toggle {
 		display: block;
 	}
 	
