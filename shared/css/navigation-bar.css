@@ -26,7 +26,6 @@ nav ul li a {
 	padding: 1rem 2rem;
 	color: #000000;
 	text-decoration: none;
-	z-index: 1;
 }
 
 nav ul li a:active {
@@ -70,10 +69,6 @@ nav > button span {
 }
 
 @media (max-width: 600px) {
-	body {
-		background-color: orange;
-	}
-	
 	nav {
 		flex-direction: column;
 		align-items: flex-start;
