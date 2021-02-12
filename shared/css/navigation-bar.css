@@ -75,7 +75,7 @@ nav > button span {
 	}
 	
 	nav > button {
-		display: block;
+		display: inline-flex;
 	}
 	
 	nav ul {
