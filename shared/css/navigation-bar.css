@@ -27,3 +27,21 @@ nav ul li a {
 	color: #000000;
 	text-decoration: none;
 }
+
+nav ul li ul {
+	display: none;
+	flex-direction: column;
+	position: absolute;
+}
+
+nav ul li:hover {
+	background: #DDDDDD;
+}
+
+nav ul li:hover > ul {
+	display: inline-flex;
+}
+
+nav ul li ul li {
+	background: #EEEEEE;
+}
