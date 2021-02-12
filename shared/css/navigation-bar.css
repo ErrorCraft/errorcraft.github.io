@@ -19,14 +19,6 @@ nav ul {
 
 nav ul li {
 	list-style: none;
-	z-index: -1;
-}
-
-nav ul li a {
-	display: block;
-	padding: 1rem 2rem;
-	color: #000000;
-	text-decoration: none;
 }
 
 nav ul li ul {
@@ -45,6 +37,13 @@ nav ul li:hover > ul {
 
 nav ul li ul li {
 	background: #EEEEEE;
+}
+
+nav ul li a {
+	display: block;
+	padding: 1rem 2rem;
+	color: #000000;
+	text-decoration: none;
 }
 
 nav > button {
