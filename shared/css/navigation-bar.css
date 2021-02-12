@@ -1,0 +1,103 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #CCCCCC;
+	color: #000000;
+}
+
+nav > a {
+	font-size: 1.5rem;
+	padding: 0.5rem;
+}
+
+nav ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav ul li a {
+	display: block;
+	padding: 1rem 2rem;
+	color: #000000;
+	text-decoration: none;
+}
+
+nav ul li a:active {
+	color: #FF0000;
+}
+
+nav ul li ul {
+	display: none;
+	flex-direction: column;
+	position: absolute;
+}
+
+nav ul li:hover {
+	background: #DDDDDD;
+}
+
+nav ul li:hover > ul {
+	display: inline-flex;
+}
+
+nav ul li ul li {
+	background: #EEEEEE;
+}
+
+nav > button {
+	position: absolute;
+	top: 0.75rem;
+	right: 1rem;
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30px;
+	height: 21px;
+}
+
+nav > button span {
+	height: 3px;
+	width: 100%;
+	background: #000000;
+	border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+	body {
+		background-color: orange;
+	}
+	
+	nav {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	
+	nav > button {
+		display: inline-flex;
+	}
+	
+	nav ul {
+		display: none;
+		flex-direction: column;
+		width: 100%;
+	}
+	
+	nav ul[data-active] {
+		display: flex;
+	}
+	
+	nav ul li a {
+		text-align: center;
+		padding: 0.5rem 1rem;
+	}
+	
+	nav ul li ul {
+		position: static;
+	}
+}
