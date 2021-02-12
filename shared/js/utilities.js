@@ -1,6 +1,6 @@
 export async function getHtmlContents(url) {
 	var s = await getContents(url);
-	return new DOMParser().parseFromString(s, "text/xml").firstChild;
+	return new DOMParser().parseFromString(s, "text/html").firstChild;
 }
 
 export function getStylesheetElement(url) {
