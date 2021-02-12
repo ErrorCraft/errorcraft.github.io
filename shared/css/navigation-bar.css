@@ -63,3 +63,33 @@ nav .nav-bar {
 	background: #000000;
 	border-radius: 10px;
 }
+
+@media (max-width: 600px) {
+	nav {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	
+	nav .nav-toggle {
+		display: inline-flex;
+	}
+	
+	nav ul {
+		display: none;
+		flex-direction: column;
+		width: 100%;
+	}
+	
+	nav ul.active {
+		display: flex;
+	}
+	
+	nav ul li a {
+		text-align: center;
+		padding: 0.5rem 1rem;
+	}
+	
+	nav ul li ul {
+		position: static;
+	}
+}
