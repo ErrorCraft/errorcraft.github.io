@@ -1,10 +1,4 @@
-nav {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	background: #CCCCCC;
-	color: #000000;
-}
+
 
 @media (max-width: 600px) {
 	nav {
