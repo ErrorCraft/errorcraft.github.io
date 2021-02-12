@@ -6,7 +6,7 @@ export async function loadLayout() {
 }
 
 async function loadNavigationBar() {
-	document.head.append(Utilities.getStylesheetElement("/shared/css/navigation-bar.css"));
 	document.body.prepend(await Utilities.getHtmlContents("/shared/html/navigation-bar"));
 	document.head.append(Utilities.getScriptElement("/shared/js/navigation-bar.js"));
+	document.head.append(Utilities.getStylesheetElement("/shared/css/navigation-bar.css"));
 }
