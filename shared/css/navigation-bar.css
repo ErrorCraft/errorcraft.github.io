@@ -33,42 +33,6 @@ nav ul li a:active {
 	color: #FF0000;
 }
 
-nav ul li ul {
-	display: none;
-	flex-direction: column;
-	position: absolute;
-}
-
-nav ul li:hover {
-	background: #DDDDDD;
-}
-
-nav ul li:hover > ul {
-	display: inline-flex;
-}
-
-nav ul li ul li {
-	background: #EEEEEE;
-}
-
-nav > button {
-	position: absolute;
-	top: 0.75rem;
-	right: 1rem;
-	display: none;
-	flex-direction: column;
-	justify-content: space-between;
-	width: 30px;
-	height: 21px;
-}
-
-nav > button span {
-	height: 3px;
-	width: 100%;
-	background: #000000;
-	border-radius: 10px;
-}
-
 @media (max-width: 600px) {
 	nav {
 		flex-direction: column;
