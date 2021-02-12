@@ -50,7 +50,7 @@ nav ul li ul li {
 	background: #EEEEEE;
 }
 
-nav > button {
+nav .nav-toggle {
 	position: absolute;
 	top: 0.75rem;
 	right: 1rem;
@@ -61,7 +61,7 @@ nav > button {
 	height: 21px;
 }
 
-nav > button span {
+nav .nav-line {
 	height: 3px;
 	width: 100%;
 	background: #000000;
@@ -78,7 +78,7 @@ nav > button span {
 		align-items: flex-start;
 	}
 	
-	nav > button {
+	nav .nav-toggle {
 		display: inline-flex;
 	}
 	
