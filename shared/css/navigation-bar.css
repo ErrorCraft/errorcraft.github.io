@@ -57,7 +57,7 @@ nav > button {
 	height: 21px;
 }
 
-nav .nav-bar {
+nav > button span {
 	height: 3px;
 	width: 100%;
 	background: #000000;
