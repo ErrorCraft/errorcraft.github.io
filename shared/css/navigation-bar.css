@@ -84,7 +84,7 @@ nav > button span {
 		width: 100%;
 	}
 	
-	nav ul.active {
+	nav ul[data-active] {
 		display: flex;
 	}
 	
