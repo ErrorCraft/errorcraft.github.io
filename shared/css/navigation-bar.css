@@ -1,14 +1,14 @@
 nav {
-	display: flex;
-	justify-content: space-between;
+	display: grid;
+	grid-template-columns: auto 1fr auto;
 	align-items: center;
 	background: #CCCCCC;
 	color: #000000;
 }
 
-nav > .nav-title {
-	font-size: 1.5rem;
-	padding: 0.5rem;
+nav a {
+	color: #000000;
+	text-decoration: none;
 }
 
 nav ul {
@@ -21,14 +21,39 @@ nav ul li {
 	list-style: none;
 }
 
-nav ul li a {
-	display: block;
-	padding: 1rem 2rem;
-	color: #000000;
-	text-decoration: none;
+nav .nav-title {
+	grid-column: 1;
+	justify-self: left;
+	padding-left: 0.5rem;
+	font-size: 1.5rem;
 }
 
-nav ul li ul {
+nav .nav-contents {
+	grid-column: 2;
+	justify-self: center;
+}
+
+nav .nav-icons {
+	grid-column: 3;
+	justify-self: right;
+	padding-right: 0.5rem;
+}
+
+nav .nav-icons li {
+	padding: 0 1rem;
+}
+
+nav .nav-icons li a {
+	display: block;
+	padding: 1rem 0;
+}
+
+nav .nav-contents li a {
+	display: block;
+	padding: 1rem 1.5rem;
+}
+
+nav .nav-contents li ul {
 	display: none;
 	flex-direction: column;
 	position: absolute;
@@ -38,7 +63,7 @@ nav ul li:hover {
 	background: #DDDDDD;
 }
 
-nav ul li:hover > ul {
+nav .nav-contents li:hover > ul {
 	display: inline-flex;
 }
 
@@ -64,36 +89,9 @@ nav .nav-line {
 	border-radius: 10px;
 }
 
-@media (max-width: 600px) {
-	body {
-		background-color: orange;
-	}
-	
-	nav {
-		flex-direction: column;
-		align-items: flex-start;
-	}
-	
-	nav .nav-toggle {
-		display: inline-flex;
-	}
-	
-	nav ul {
-		display: none;
-		flex-direction: column;
-		width: 100%;
-	}
-	
-	nav ul[data-active] {
-		display: flex;
-	}
-	
-	nav ul li a {
-		text-align: center;
-		padding: 0.5rem 1rem;
-	}
-	
-	nav ul li ul {
-		position: static;
-	}
+nav .nav-bar {
+	margin: 0.25rem 0.5rem;
+	width: 0.15rem;
+	background: #999999;
+	border-radius: 3rem;
 }
