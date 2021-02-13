@@ -3,7 +3,6 @@ nav {
 	grid-template-columns: auto 1fr auto;
 	align-items: center;
 	background: #CCCCCC;
-	color: #000000;
 }
 
 nav a {
@@ -23,8 +22,7 @@ nav ul li {
 
 nav .nav-title {
 	grid-column: 1;
-	justify-self: left;
-	padding-left: 0.5rem;
+	padding: 0 0.5rem;
 	font-size: 1.5rem;
 }
 
@@ -35,8 +33,7 @@ nav .nav-contents {
 
 nav .nav-icons {
 	grid-column: 3;
-	justify-self: right;
-	padding-right: 0.5rem;
+	padding: 0 0.5rem;
 }
 
 nav .nav-icons li {
@@ -45,7 +42,11 @@ nav .nav-icons li {
 
 nav .nav-icons li a {
 	display: block;
-	padding: 1rem 0;
+	padding: 0.85rem 0;
+}
+
+nav .nav-icons img {
+	display: block;
 }
 
 nav .nav-contents li a {
@@ -71,25 +72,7 @@ nav ul li ul li {
 	background: #EEEEEE;
 }
 
-nav .nav-toggle {
-	position: absolute;
-	top: 0.75rem;
-	right: 1rem;
-	display: none;
-	flex-direction: column;
-	justify-content: space-between;
-	width: 30px;
-	height: 21px;
-}
-
 nav .nav-line {
-	height: 3px;
-	width: 100%;
-	background: #000000;
-	border-radius: 10px;
-}
-
-nav .nav-bar {
 	margin: 0.25rem 0.5rem;
 	width: 0.15rem;
 	background: #999999;
